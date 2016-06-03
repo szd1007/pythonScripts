@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/gollum.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/editor.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/dialog.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/template.css" media="all">
+  <link rel="stylesheet" type="text/css" href="/wiki/css/print.css" media="print">
+  
+  
+
+  <!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/wiki/css/ie7.css" media="all">
+  <![endif]-->
+
+  <script>
+      var baseUrl = '/wiki';
+      var pageFullPath = 'recsys/mixer recommender pos desc';
+      var uploadDest   = 'uploads';
+  </script>
+  <script type="text/javascript" src="/wiki/javascript/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/mousetrap.min.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.dialog.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/gollum.placeholder.js"></script>
+  <script type="text/javascript" src="/wiki/javascript/editor/gollum.editor.js"></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath:  [ ['\\(','\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+      processEscapes: true
+    },
+    TeX: { extensions: ["autoload-all.js"] }});
+  </script>
+  <script>(function(d,j){
+  j = d.createElement('script');
+  j.src = 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+  (d.head || d.getElementsByTagName('head')[0]).appendChild(j);
+  }(document));
+  </script>
+  
+
+  <title>recsys/mixer recommender pos desc</title>
+</head>
+<body>
+
+<script>
+Mousetrap.bind(['e'], function( e ) {
+  e.preventDefault();
+  window.location = "/edit" + window.location.pathname;
+  return false;
+});
+</script>
+<div id="wiki-wrapper" class="page">
+<div id="head">
+  <h1>mixer已融合推荐位说明</h1>
+  <ul class="actions">
+    <li class="minibutton">
+      <div id="searchbar">
+        <form action="/wiki/search" method="get" id="search-form">
+        <div id="searchbar-fauxtext">
+          <input type="text" name="q" id="search-query" value="Search&hellip;" autocomplete="off">
+          <a href="#" id="search-submit" title="Search this wiki">
+            <span>Search</span>
+          </a>
+        </div>
+        </form>
+      </div>    </li>
+    <li class="minibutton"><a href="/wiki/"
+       class="action-home-page">Home</a></li>
+    <li class="minibutton"><a href="/wiki/pages"
+      class="action-all-pages">All</a></li>
+    <li class="minibutton"><a href="/wiki/fileview"
+    class="action-fileview">Files</a></li>
+    <li class="minibutton jaws">
+      <a href="#" id="minibutton-new-page">New</a></li>
+    <li class="minibutton jaws">
+      <a href="#" id="minibutton-upload-page">Upload</a></li>
+    <li class="minibutton jaws">
+      <a href="#" id="minibutton-rename-page">Rename</a></li>
+    <li class="minibutton"><a href="/wiki/edit/recsys/mixer-recommender-pos-desc"
+       class="action-edit-page">Edit</a></li>
+    <li class="minibutton jaws">
+    <li class="minibutton"><a href="/wiki/history/recsys/mixer-recommender-pos-desc"
+       class="action-page-history">History</a></li>
+  </ul>
+</div>
+<div id="wiki-content">
+<div class="">
+  <div id="wiki-body" class="gollum-markdown-content">
+    <div class="markdown-body">
+      
+
+<ul>
+<li>广告组统一访问接口url地址：<a href="http://x.jd.com/ShowInterface?ad_type=7&amp;spread_type=1&amp;mobile_type=2&amp;device_type=16&amp;template=0&amp;ad_ids=1799:20&amp;pin=134864899-443038&amp;device_id=2095932174&amp;location_info=1%E3%80%82">http://x.jd.com/ShowInterface?ad_type=7&amp;spread_type=1&amp;mobile_type=2&amp;device_type=16&amp;template=0&amp;ad_ids=1799:20&amp;pin=134864899-443038&amp;device_id=2095932174&amp;location_info=1。</a></li>
+<li>ad_ids：广告位ID:返回数量。</li>
+<li>pin：用户pin。</li>
+<li>device_id：手机设备ID，类似uuid。</li>
+<li>location_info：地理位置，类似lim。</li>
+</ul>
+
+<table><thead>
+<tr>
+<th>推荐位名称</th>
+<th>推荐位ID</th>
+<th>责任人</th>
+<th>广告位ID</th>
+<th>调用次数（万/天）</th>
+<th>推荐url地址</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>过渡页 &gt; 过渡页你可能还需要</td>
+<td>303000</td>
+<td>李朋飞</td>
+<td>1800</td>
+<td>350</td>
+<td><a href="http://diviner.jd.com/diviner?p=303000&amp;uuid=&amp;sku=996967&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=303000&amp;uuid=&amp;sku=996967&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>微信单品页 &gt; 微信端购买还购买</td>
+<td>902026</td>
+<td>熊熹</td>
+<td>1742</td>
+<td>3340</td>
+<td><a href="http://diviner.jd.com/diviner?p=902026&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902026&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>过渡页 &gt; 过渡页购买了还购买</td>
+<td>107000</td>
+<td>熊熹</td>
+<td>1799</td>
+<td>373</td>
+<td><a href="http://diviner.jd.com/diviner?p=107000&amp;uuid=281047548&amp;sku=1861094&amp;skus=&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=107000&amp;uuid=281047548&amp;sku=1861094&amp;skus=&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>首页 &gt; APP-首页猜你喜欢无限下拉</td>
+<td>620003</td>
+<td>苏福顺</td>
+<td>1207</td>
+<td>926</td>
+<td><a href="http://diviner.jd.com/diviner?p=620003&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=620003&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>我的关注页 &gt; 相似店铺</td>
+<td>902027</td>
+<td>胡炳慈</td>
+<td>1855</td>
+<td>2</td>
+<td><a href="http://diviner.jd.com/diviner?p=902027&amp;uuid=1&amp;sku=83340&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902027&amp;uuid=1&amp;sku=83340&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>app首页 &gt; App5.0首页为你推荐</td>
+<td>621017</td>
+<td>苏福顺</td>
+<td>1207</td>
+<td>955</td>
+<td><a href="http://diviner.jd.com/diviner?p=621017&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=621017&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>关注成功页 &gt; 关注了此商品的人还关注</td>
+<td>109000</td>
+<td>仲籽彦</td>
+<td>1853</td>
+<td>41</td>
+<td><a href="http://diviner.jd.com/diviner?p=109000&amp;uuid=124463704&amp;sku=1620659360&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=109000&amp;uuid=124463704&amp;sku=1620659360&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>POP榜单 &gt; POP热门销售榜单</td>
+<td>509001</td>
+<td>仲籽彦</td>
+<td>1849</td>
+<td>1120</td>
+<td><a href="http://diviner.jd.com/diviner?p=509001&amp;uuid=124463704&amp;sku=96705&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=509001&amp;uuid=124463704&amp;sku=96705&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>我的京东 &gt; 我的订单-猜你喜欢</td>
+<td>201002</td>
+<td>司建敏</td>
+<td>1807</td>
+<td>547</td>
+<td><a href="http://diviner.jd.com/diviner?p=201002&amp;uuid=897345782&amp;sku=10186583547&amp;skus=&amp;pin=sjm1235&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=9&amp;sp=&amp;hi=&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=201002&amp;uuid=897345782&amp;sku=10186583547&amp;skus=&amp;pin=sjm1235&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=9&amp;sp=&amp;hi=&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>店铺单品页的左侧 &gt; 同店铺内推荐</td>
+<td>902029</td>
+<td>胡炳慈</td>
+<td>1802</td>
+<td>1273</td>
+<td><a href="http://diviner.jd.com/diviner?p=902029&amp;uuid=1&amp;sku=1022196560&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902029&amp;uuid=1&amp;sku=1022196560&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>POP榜单 &gt; POP新品榜单</td>
+<td>610008</td>
+<td>仲籽彦</td>
+<td>1850</td>
+<td>870</td>
+<td><a href="http://diviner.jd.com/diviner?p=610008&amp;uuid=124463704&amp;sku=96705&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=610008&amp;uuid=124463704&amp;sku=96705&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>我的京东 &gt; 我的关注-根据您的关注为你推荐</td>
+<td>201000</td>
+<td>仲籽彦</td>
+<td>1808</td>
+<td>27</td>
+<td><a href="http://diviner.jd.com/diviner?p=201000&amp;uuid=124463704&amp;sku=&amp;skus=1726516%2C836050&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=20100000014072805&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg&amp;fq=yes">http://diviner.jd.com/diviner?p=201000&amp;uuid=124463704&amp;sku=&amp;skus=1726516%2C836050&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=&amp;fe=20100000014072805&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg&amp;fq=yes</a></td>
+</tr>
+<tr>
+<td>微信手Q &gt; 微信端个人中心猜你喜欢</td>
+<td>639001</td>
+<td>胡恒魁</td>
+<td>1791</td>
+<td>674</td>
+<td><a href="http://diviner.jd.com/diviner?p=639001&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=639001&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>我的关注 &gt; 相似店铺</td>
+<td>610014</td>
+<td>胡炳慈</td>
+<td>1854</td>
+<td>0.018</td>
+<td><a href="http://diviner.jd.com/diviner?p=610014&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=610014&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>APP领京豆页面 &gt; APP领京豆推荐位</td>
+<td>622000</td>
+<td>苏福顺</td>
+<td></td>
+<td>508</td>
+<td><a href="http://diviner.jd.com/diviner?p=622000&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=622000&amp;uuid=1037745348&amp;sku=&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=page%3A1&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>3C/百货三级列表页 &gt; 三级列表浏览XXX最终购买</td>
+<td>504000</td>
+<td>张锟</td>
+<td>1806</td>
+<td>1129</td>
+<td><a href="http://diviner.jd.com/diviner?p=504000&amp;uuid=448419784&amp;sku=&amp;skus=&amp;pin=estmings&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;ro=&amp;ec=gbk&amp;fmt=dbg&amp;fq=yes">http://diviner.jd.com/diviner?p=504000&amp;uuid=448419784&amp;sku=&amp;skus=&amp;pin=estmings&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;ro=&amp;ec=gbk&amp;fmt=dbg&amp;fq=yes</a></td>
+</tr>
+<tr>
+<td>手Q个人中心页-猜你喜欢 &gt; 手Q个人中心页-猜你喜欢</td>
+<td>635019</td>
+<td>胡恒魁</td>
+<td>1893</td>
+<td>194</td>
+<td><a href="http://diviner.jd.com/diviner?p=635019&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635019&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>3C商品页 &gt; 看了又看</td>
+<td>105000</td>
+<td>胡炳慈</td>
+<td>1802</td>
+<td>455</td>
+<td><a href="http://diviner.jd.com/diviner?p=105000&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=105000&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>iphone商品详情页底部 &gt; iphone商详也许您还喜欢</td>
+<td>130000</td>
+<td>熊熹</td>
+<td>1677</td>
+<td>5163</td>
+<td><a href="http://diviner.jd.com/diviner?p=130000&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=130000&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>全站页面底部 &gt; 全站脚印猜你喜欢</td>
+<td>202002</td>
+<td>张锟</td>
+<td>1805</td>
+<td>1058</td>
+<td><a href="http://diviner.jd.com/diviner?p=202002&amp;uuid=-1&amp;sku=1343375&amp;skus=&amp;pin=&amp;c1=652&amp;c2=829&amp;c3=1219&amp;lid=1&amp;lim=60&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;ck=pinId,lighting,pin,ipLocation,at,avie&amp;fmt=dbg">http://diviner.jd.com/diviner?p=202002&amp;uuid=-1&amp;sku=1343375&amp;skus=&amp;pin=&amp;c1=652&amp;c2=829&amp;c3=1219&amp;lid=1&amp;lim=60&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;ck=pinId,lighting,pin,ipLocation,at,avie&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>android、ipad我的京东底部 &gt; 猜你喜欢</td>
+<td>320000</td>
+<td>司建敏</td>
+<td>1679</td>
+<td>1728</td>
+<td><a href="http://diviner.jd.com/diviner?p=320000&amp;uuid=167745968&amp;sku=&amp;skus=&amp;pin=sjm1235&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=page%3A1&amp;fe=100&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=320000&amp;uuid=167745968&amp;sku=&amp;skus=&amp;pin=sjm1235&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=24&amp;sp=&amp;hi=page%3A1&amp;fe=100&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>图书页面底部 &gt; 图书脚印猜你喜欢</td>
+<td>202000</td>
+<td>仲籽彦</td>
+<td>1803</td>
+<td>34</td>
+<td><a href="http://diviner.jd.com/diviner?p=202000&amp;uuid=124463704&amp;sku=11597269&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=202000&amp;uuid=124463704&amp;sku=11597269&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=&amp;fne=yes&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>图书商品页 &gt; 图书最佳组合</td>
+<td>104001</td>
+<td>仲籽彦</td>
+<td>1966</td>
+<td>200</td>
+<td><a href="http://diviner.jd.com/diviner?p=104001&amp;uuid=124463704&amp;sku=10000836257&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=104001&amp;uuid=124463704&amp;sku=10000836257&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=101&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>浏览历史、预约商品页 &gt; 相似推荐</td>
+<td>108002</td>
+<td>赵建乐，张强</td>
+<td>1852</td>
+<td>217</td>
+<td><a href="http://diviner.jd.com/diviner?p=108002&amp;uuid=&amp;sku=1856584&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=100&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=108002&amp;uuid=&amp;sku=1856584&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=100&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>购物车页 &gt; 移动端购物车页购买还购买</td>
+<td>205002</td>
+<td>熊熹</td>
+<td>1678</td>
+<td>596</td>
+<td><a href="http://diviner.jd.com/diviner?p=205002&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=205002&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>微信 &gt; 微信端购物车页猜你喜欢</td>
+<td>630003</td>
+<td>熊熹</td>
+<td>1789</td>
+<td>346</td>
+<td><a href="http://diviner.jd.com/diviner?p=630003&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=630003&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>推荐服务 &gt; 实时推荐-主app-相似商品</td>
+<td>370000</td>
+<td>苏福顺</td>
+<td>1233</td>
+<td>5</td>
+<td><a href="http://diviner.jd.com/diviner?p=370000&amp;uuid=533306612&amp;sku=10240897342&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=370000&amp;uuid=533306612&amp;sku=10240897342&amp;skus=&amp;pin=sufushun&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>我的购物车页面 &gt; 购物车页购买还购买了</td>
+<td>205000</td>
+<td>熊熹</td>
+<td>1798</td>
+<td>336</td>
+<td><a href="http://diviner.jd.com/diviner?p=205000&amp;uuid=281047548&amp;sku=&amp;skus=1861094&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=205000&amp;uuid=281047548&amp;sku=&amp;skus=1861094&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>M触屏版商品详情页底部 &gt; 也许您还喜欢</td>
+<td>902007</td>
+<td>熊熹</td>
+<td>1859</td>
+<td>9172</td>
+<td><a href="http://diviner.jd.com/diviner?p=902007&amp;uuid=563522995&amp;sku=10033643216&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902007&amp;uuid=563522995&amp;sku=10033643216&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>Android商品详情页底部 &gt; Android商详也许您还喜欢</td>
+<td>902008</td>
+<td>熊熹</td>
+<td>1677</td>
+<td>9130</td>
+<td><a href="http://diviner.jd.com/diviner?p=902008&amp;uuid=563522995&amp;sku=10033643216&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902008&amp;uuid=563522995&amp;sku=10033643216&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>Ipad商品详情页底部 &gt; 也许您还喜欢</td>
+<td>902009</td>
+<td>李朋飞</td>
+<td>1865</td>
+<td>457</td>
+<td><a href="http://diviner.jd.com/diviner?p=902009&amp;uuid=&amp;sku=996964&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=902009&amp;uuid=&amp;sku=996964&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>微信手Q &gt; 微信交易成功页猜你喜欢</td>
+<td>630001</td>
+<td>熊熹</td>
+<td>1790</td>
+<td>67</td>
+<td><a href="http://diviner.jd.com/diviner?p=630001&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=630001&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>微信首页 &gt; 微信首页端猜你喜欢</td>
+<td>630002</td>
+<td>胡恒魁</td>
+<td>1741</td>
+<td>157</td>
+<td><a href="http://diviner.jd.com/diviner?p=630002&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=630002&amp;uuid=752793350&amp;pin=&amp;lid=1&amp;lim=100&amp;hi=visitkey:11984304520464657,pin:15675842421_p,openid:,page:1,pagesize:10&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>百货商品页 &gt; 达人选购</td>
+<td>102003</td>
+<td>胡炳慈</td>
+<td>1801</td>
+<td>532</td>
+<td><a href="http://diviner.jd.com/diviner?p=102003&amp;uuid=1&amp;sku=206737&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=102003&amp;uuid=1&amp;sku=206737&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>百货商品页 &gt; 看了又看</td>
+<td>102004</td>
+<td>胡炳慈</td>
+<td>1802</td>
+<td>424</td>
+<td><a href="http://diviner.jd.com/diviner?p=102004&amp;uuid=1&amp;sku=206737&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=102004&amp;uuid=1&amp;sku=206737&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>APP移动端——购物车页 &gt; 你可能想要、空购物车个性化榜单</td>
+<td>621002</td>
+<td>张强</td>
+<td>1678</td>
+<td>306</td>
+<td><a href="http://diviner.jd.com/diviner?p=621002&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=109&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=621002&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=109&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>首页 &gt; APP-首页猜你喜欢店铺推荐</td>
+<td>621001</td>
+<td>张锟</td>
+<td>1232</td>
+<td>33</td>
+<td><a href="http://diviner.jd.com/diviner?p=621001&amp;uuid=1072924928&amp;sku=&amp;skus=&amp;pin=westmings&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=8&amp;sp=&amp;hi=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fq=yes&amp;fmt=dbg">http://diviner.jd.com/diviner?p=621001&amp;uuid=1072924928&amp;sku=&amp;skus=&amp;pin=westmings&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=8&amp;sp=&amp;hi=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fq=yes&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>手Q商祥页-猜你喜欢 &gt; 手Q商祥页-猜你喜欢</td>
+<td>635015</td>
+<td>熊熹</td>
+<td>1744</td>
+<td>2234</td>
+<td><a href="http://diviner.jd.com/diviner?p=635015&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635015&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>手Q购物车页-猜你喜欢 &gt; 手Q购物车页-猜你喜欢</td>
+<td>635016</td>
+<td>熊熹</td>
+<td>1792</td>
+<td>89</td>
+<td><a href="http://diviner.jd.com/diviner?p=635016&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635016&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>手Q订单完成页-猜你喜欢 &gt; 手Q订单完成页-猜你喜欢</td>
+<td>635017</td>
+<td>熊熹</td>
+<td>1793</td>
+<td>15</td>
+<td><a href="http://diviner.jd.com/diviner?p=635017&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635017&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>手Q订单详情页-猜你喜欢 &gt; 手Q订单详情页-猜你喜欢</td>
+<td>635018</td>
+<td>熊熹</td>
+<td>1793</td>
+<td>55</td>
+<td><a href="http://diviner.jd.com/diviner?p=635018&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635018&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>微信空购物车-猜你喜欢 &gt; 微信空购物车-猜你喜欢</td>
+<td>635012</td>
+<td>张强</td>
+<td>1789</td>
+<td>28</td>
+<td><a href="http://diviner.jd.com/diviner?p=635012&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635012&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>手Q空购物车-猜你喜欢 &gt; 手Q空购物车-猜你喜欢</td>
+<td>635013</td>
+<td>张强</td>
+<td>1792</td>
+<td>9</td>
+<td><a href="http://diviner.jd.com/diviner?p=635013&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635013&amp;uuid=295444715&amp;sku=&amp;skus=&amp;pin=oucqiangz2012&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=20&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>音像单品页 &gt; 音像最佳组合</td>
+<td>104026</td>
+<td>刘晓建</td>
+<td>1966</td>
+<td>14</td>
+<td><a href="http://diviner.jd.com/diviner?lid=1&amp;lim=6&amp;ec=utf-8&amp;uuid=1158404413&amp;pin=winter3125&amp;p=104026&amp;sku=20036804&amp;ck=pin,ipLocation,atw,aview&amp;c1=4053&amp;c2=4103&amp;c3=4541&amp;callback=jQuery8248748&amp;_=1462781808762">http://diviner.jd.com/diviner?lid=1&amp;lim=6&amp;ec=utf-8&amp;uuid=1158404413&amp;pin=winter3125&amp;p=104026&amp;sku=20036804&amp;ck=pin,ipLocation,atw,aview&amp;c1=4053&amp;c2=4103&amp;c3=4541&amp;callback=jQuery8248748&amp;_=1462781808762</a></td>
+</tr>
+<tr>
+<td>百货商品页 &gt; 百货最佳组合</td>
+<td>102001</td>
+<td>熊熹</td>
+<td>1966</td>
+<td>4538</td>
+<td><a href="http://diviner.jd.com/diviner?p=102001&amp;uuid=281047548&amp;sku=1861094&amp;skus=&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=102001&amp;uuid=281047548&amp;sku=1861094&amp;skus=&amp;pin=Tracyxx91&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=&amp;fe=110&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>3C商品页 &gt; 3C最佳组合</td>
+<td>103003</td>
+<td>李朋飞</td>
+<td>1966</td>
+<td>2071</td>
+<td><a href="http://diviner.jd.com/diviner?p=103003&amp;uuid=1309555479&amp;sku=996967&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=112&amp;fne=&amp;ro=&amp;ec=gbk&amp;fq=yes">http://diviner.jd.com/diviner?p=103003&amp;uuid=1309555479&amp;sku=996967&amp;skus=&amp;pin=&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=10&amp;sp=&amp;hi=&amp;fe=112&amp;fne=&amp;ro=&amp;ec=gbk&amp;fq=yes</a></td>
+</tr>
+<tr>
+<td>微信手Q订单详情页 &gt; 买了还买</td>
+<td>635008</td>
+<td>熊熹</td>
+<td>1790</td>
+<td>274</td>
+<td><a href="http://diviner.jd.com/diviner?p=635008&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=635008&amp;uuid=563522995&amp;sku=1464303044&amp;skus=&amp;pin=zhyh8341_m&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=40&amp;sp=&amp;hi=1&amp;fe=0&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td>3C商品页 &gt; 达人选购</td>
+<td>103001</td>
+<td>胡炳慈</td>
+<td>1801</td>
+<td>636</td>
+<td><a href="http://diviner.jd.com/diviner?p=103001&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg">http://diviner.jd.com/diviner?p=103001&amp;uuid=1&amp;sku=2168847&amp;skus=&amp;pin=shizhao66&amp;c1=&amp;c2=&amp;c3=&amp;lid=1&amp;lim=-1&amp;sp=&amp;hi=&amp;fe=&amp;fne=&amp;ro=&amp;ec=gbk&amp;fmt=dbg</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Date:2016-05-10</td>
+<td>Total：50708.018</td>
+<td></td>
+</tr>
+</tbody></table>
+
+    </div>
+  </div>
+  </div>
+
+</div>
+<div id="footer">
+  <p id="last-edit">Last edited by <b>Anonymous</b>, 2016-05-11 12:04:41</p>
+  <p>
+    <a id="delete-link" href="/wiki/recsys/mixer-recommender-pos-desc" data-confirm="Are you sure you want to delete this page?"><span>Delete this Page</span></a>
+  </p>
+</div>
+</div>
+
+<form name="rename" method="POST" action="/wiki/rename/recsys/mixer-recommender-pos-desc">
+  <input type="hidden" name="rename"/>
+  <input type="hidden" name="message"/>
+</form>
+
+
+</body>
+</html>
